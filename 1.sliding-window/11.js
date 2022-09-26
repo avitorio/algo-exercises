@@ -3,7 +3,7 @@
  * @param {number[]} height
  * @return {number}
  */
-var maxContainer = function (height) {
+var maxArea = function (height) {
   let p1 = 0,
     p2 = height.length - 1,
     maxValue = 0;
@@ -22,5 +22,3 @@ var maxContainer = function (height) {
 
   return maxValue;
 };
-
-console.log(maxContainer([7, 1, 2, 3, 9]));
